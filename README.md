@@ -33,19 +33,3 @@ A simple, secure, and functional **console-based banking system** developed in C
 
 ---
 
-## 🗃️ Database Setup
-
-Make sure you have **MySQL Server** running locally.
-
-1. Open your MySQL client (like MySQL Workbench or terminal).
-2. Run the following SQL:
-
-```sql
-CREATE DATABASE IF NOT EXISTS banking;
-USE banking;
-
-CREATE TABLE IF NOT EXISTS accounts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    balance DOUBLE
-);
